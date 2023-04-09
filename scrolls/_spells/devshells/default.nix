@@ -7,6 +7,7 @@ in
       name = "incantationless-shell";
 
       imports = [
+        cell.devshellProfiles.default
         std.std.devshellProfiles.default
       ];
     };
