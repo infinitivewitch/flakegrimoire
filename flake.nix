@@ -22,6 +22,13 @@
       url = "github:divnix/std";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    std-data-collection = {
+      url = "github:divnix/std-data-collection";
+      inputs = {
+        std.follows = "std";
+        nixpkgs.follows = "nixpkgs";
+      };
+    };
     disko = {
       url = "github:nix-community/disko";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -61,6 +68,7 @@
         (functions "lib")
 
         (devshells "devshells")
+        (functions "devshellModules")
         (functions "devshellProfiles")
       ];
     }

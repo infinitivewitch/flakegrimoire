@@ -7,6 +7,10 @@
   withCategory = category: attrset: attrset // {inherit category;};
 in {
   default = {
+    imports = [
+      cell.devshellModules.nixago
+    ];
+
     commands = [
       (withCategory "minor conjuring" {package = inputs.home.packages.home-manager;})
       (withCategory "minor conjuring" {package = nixos.legacyPackages.${nixpkgs.system}.reuse;})
