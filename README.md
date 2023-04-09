@@ -1,5 +1,9 @@
 # Flake Grimoire
 
+[![Build](https://github.com/infinitivewitch/flake-grimoire/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/infinitivewitch/flake-grimoire/actions/workflows/build.yml)
+[![Update](https://github.com/infinitivewitch/flake-grimoire/actions/workflows/update.yml/badge.svg?branch=main)](https://github.com/infinitivewitch/flake-grimoire/actions/workflows/update.yml)
+[![Cachix](https://img.shields.io/badge/Cachix-infinitivewitch-white.svg)](https://infinitivewitch.cachix.org)
+
 ## Acknowledgments
 
 - [**divnix**](https://github.com/divnix)
@@ -20,8 +24,8 @@
 
 This work is licensed under multiple licences.
 
-  - All original source code is licensed under **MIT**.
-  - All documentation is licensed under **CC-BY-SA-4.0**.
-  - Some Nix configurations and data files are licensed under **Unlicense**.
+- All original source code is licensed under **MIT**.
+- All documentation is licensed under **CC-BY-SA-4.0**.
+- Some Nix configurations and data files are licensed under **Unlicense**.
 
 For more accurate information, check the individual files and the data at [.reuse/dep5](.reuse/dep5).
