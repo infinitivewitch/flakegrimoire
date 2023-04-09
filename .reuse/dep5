@@ -15,6 +15,6 @@ Files: scrolls/*
 Copyright: 2023 Infinitive Witch <infinitivewitch@disroot.org>
 License: MIT
 
-Files: flake.* .editorconfig
+Files: flake.* .editorconfig .envrc
 Copyright: 2023 Infinitive Witch <infinitivewitch@disroot.org>
 License: MIT

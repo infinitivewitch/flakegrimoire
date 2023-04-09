@@ -18,8 +18,7 @@
     };
   };
 
-  outputs =
-    inputs @ {
+  outputs = inputs @ {
     self,
     std,
     ...
@@ -33,6 +32,11 @@
       cellsFrom = ./scrolls;
       cellBlocks = with std.blockTypes; [
         (functions "lib")
+
+        (devshells "devshells")
       ];
+    }
+    {
+      devShells = std.harvest self [["_spells" "devshells"]];
     };
 }
