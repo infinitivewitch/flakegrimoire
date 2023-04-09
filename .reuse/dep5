@@ -11,6 +11,10 @@ Files: .github/*
 Copyright: 2023 Infinitive Witch <infinitivewitch@disroot.org>
 License: MIT
 
+Files: ci/*
+Copyright: 2023 Infinitive Witch <infinitivewitch@disroot.org>
+License: MIT
+
 Files: scrolls/*
 Copyright: 2023 Infinitive Witch <infinitivewitch@disroot.org>
 License: MIT
