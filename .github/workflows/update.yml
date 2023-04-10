@@ -1,4 +1,4 @@
-name: Update
+name: update
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     - cron:  '0 0 * * 0'
 
 jobs:
-  update:
+  flake:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -14,6 +14,10 @@ jobs:
     - uses: DeterminateSystems/update-flake-lock@v19
       with:
         sign-commits: true
+        git-author-name: 'Mecha Sorceress'
+        git-author-email: 'infinitivewitch+bot@disroot.org'
+        git-committer-name: 'Mecha Sorceress'
+        git-committer-email: 'infinitivewitch+bot@disroot.org'
         pr-assignees: infinitivewitch
         pr-title: "ci: update flake.lock"
         commit-msg: "ci: update flake.lock"
