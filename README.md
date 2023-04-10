@@ -1,8 +1,8 @@
 # Flake Grimoire
 
-[![Build](https://github.com/infinitivewitch/flake-grimoire/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/infinitivewitch/flake-grimoire/actions/workflows/build.yml)
-[![Update](https://github.com/infinitivewitch/flake-grimoire/actions/workflows/update.yml/badge.svg?branch=main)](https://github.com/infinitivewitch/flake-grimoire/actions/workflows/update.yml)
-[![Cachix](https://img.shields.io/badge/Cachix-infinitivewitch-white.svg)](https://infinitivewitch.cachix.org)
+[![Deploy](https://github.com/infinitivewitch/flakegrimoire/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/infinitivewitch/flakegrimoire/actions/workflows/deploy.yml)
+[![Update](https://github.com/infinitivewitch/flakegrimoire/actions/workflows/update.yml/badge.svg?branch=main)](https://github.com/infinitivewitch/flakegrimoire/actions/workflows/update.yml)
+[![Cachix](https://img.shields.io/badge/cachix-infinitivewitch-white.svg)](https://infinitivewitch.cachix.org)
 
 ## Acknowledgments
 
