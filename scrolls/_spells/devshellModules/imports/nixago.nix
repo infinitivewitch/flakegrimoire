@@ -8,7 +8,14 @@ in {
     treefmt
     lefthook
     editorconfig
-    githubsettings
     (conform {data = {inherit (inputs) cells;};})
+    (githubsettings {
+      data = {
+        repository = {
+          description = "The Forbidden Nix Flakes Doctrine";
+          topics = "dotfiles, nix, nixos, nixos-configuration, flake, nix-flake, nixos-dotfiles";
+        };
+      };
+    })
   ];
 }

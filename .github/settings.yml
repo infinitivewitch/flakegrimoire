@@ -53,3 +53,6 @@ labels:
 - color: '#F44336'
   description: This issue is of high complexity or just not yet well understood
   name: ':muscle: Effort: 5'
+repository:
+  description: The Forbidden Nix Flakes Doctrine
+  topics: dotfiles, nix, nixos, nixos-configuration, flake, nix-flake, nixos-dotfiles

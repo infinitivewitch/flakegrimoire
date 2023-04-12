@@ -1,4 +1,6 @@
 {
+  description = "The Forbidden Nix Flakes Doctrine";
+
   nixConfig = {
     extra-substituters = [
       "https://cache.nixos.org"
