@@ -24,6 +24,8 @@ let
   in
     l.filterAttrs (n: v: v != {}) (l.mapAttrs' collect files);
 in {
+  flake = import "${(inputs.std.incl inputs.self ["flake.nix"])}/flake.nix";
+
   importRakeLeaves = path: args:
     l.mapAttrs (_: v:
       if (l.isFunction (import v))
