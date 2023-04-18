@@ -5,6 +5,7 @@
 [![Deploy](https://github.com/infinitivewitch/flakegrimoire/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/infinitivewitch/flakegrimoire/actions/workflows/deploy.yml)
 [![Update](https://github.com/infinitivewitch/flakegrimoire/actions/workflows/update.yml/badge.svg?branch=main)](https://github.com/infinitivewitch/flakegrimoire/actions/workflows/update.yml)
 [![Cachix](https://img.shields.io/badge/cachix-infinitivewitch-white.svg)](https://infinitivewitch.cachix.org)
+[![WakaTime](https://wakatime.com/badge/github/infinitivewitch/flakegrimoire.svg)](https://wakatime.com/badge/github/infinitivewitch/flakegrimoire)
 
 ## Acknowledgments
 
