@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: Unlicense
 
 .std
+.cache
 result
 
 # nixago: ignore-linked-files
